@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/tvnumber"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="50sp"
+        android:layout_toStartOf="@id/tvnumber"
+        android:layout_centerVertical="true"
+        android:id="@+id/btnplus"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="50sp"
+        android:layout_centerVertical="true"
+        android:id="@+id/btndiv"
+        android:layout_toEndOf="@id/tvnumber"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnminus"
+        android:text="-"
+        android:textSize="50sp"
+        android:layout_above="@id/btnplus"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnmultiply"
+        android:text="*"
+        android:textSize="50sp"
+        android:layout_below="@id/btndiv"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+
+
+</RelativeLayout>
